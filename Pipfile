@@ -5,9 +5,12 @@ verify_ssl = true
 
 [dev-packages]
 flake8 = "*"
+dj-database-url = "*"
 
 [packages]
 django = "*"
+python-decouple = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.8"
