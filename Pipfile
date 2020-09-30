@@ -6,6 +6,10 @@ verify_ssl = true
 [dev-packages]
 flake8 = "*"
 dj-database-url = "*"
+social-auth-app-django = "*"
+django-extensions = "*"
+werkzeug = "*"
+pyopenssl = "*"
 
 [packages]
 django = "*"
