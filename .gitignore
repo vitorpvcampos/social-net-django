@@ -103,8 +103,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# StaticFiles Local
+# StaticFiles & MediaFilesLocal
 staticfiles/
+mediafiles/
+media/
 
 # Postgres
 .pgdata

@@ -11,6 +11,7 @@ dj-database-url = "*"
 django = "*"
 python-decouple = "*"
 psycopg2 = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.8"
