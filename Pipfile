@@ -16,7 +16,6 @@ django = "*"
 python-decouple = "*"
 psycopg2 = "*"
 pillow = "*"
-asgiref = "*"
 
 [requires]
 python_version = "3.8"
