@@ -17,6 +17,7 @@ python-decouple = "*"
 psycopg2 = "*"
 pillow = "*"
 asgiref = "*"
+easy-thumbnails = "*"
 
 [requires]
 python_version = "3.8"

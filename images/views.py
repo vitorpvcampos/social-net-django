@@ -20,7 +20,6 @@ def image_create(request):
 
             return redirect(new_item.get_absolute_url())
     else:
-
         form = ImageCreateForm(data=request.GET)
 
     return render(request,
@@ -30,5 +29,8 @@ def image_create(request):
 
 
 def image_detail(request, id, slug):
-    get_object_or_404(Image, id=id, slug=slug)  # image = get_object_or_404(Image, id=id, slug=slug)
-    return render(request, 'images/image/detail.html', {'section': 'images', 'image': 'image'})
+    image = get_object_or_404(Image, id=id, slug=slug)
+    return render(request,
+                  'images/image/detail.html',
+                  {'section': 'images',
+                   'image': image})
