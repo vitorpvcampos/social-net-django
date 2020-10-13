@@ -15,7 +15,7 @@ jobs:
     strategy:
       max-parallel: 4
       matrix:
-        python-version: [ 3.8.5 ]
+        python-version: [ 3.9.0 ]
 
     services:
       postgres:
@@ -37,6 +37,7 @@ jobs:
           cp contrib/env-sample .env
       - name: Install Dependencies
         run: |
+          pip install --upgrade pip
           pip install pipenv
           pipenv sync --dev
       - name: Lint with flake8
