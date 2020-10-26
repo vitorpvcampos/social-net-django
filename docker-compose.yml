@@ -13,3 +13,9 @@ services:
       - POSTGRES_USER=social
     ports:
       - 5435:5432
+
+  redis:
+    container_name: redis_social
+    image: redis
+    ports:
+      - 6379:6379

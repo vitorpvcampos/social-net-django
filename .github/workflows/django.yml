@@ -26,6 +26,9 @@ jobs:
           POSTGRES_DB: postgres
         ports: [ '5432:5432' ]
 
+      redis:
+        image: redis
+
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python ${{ matrix.python-version }}
