@@ -34,10 +34,10 @@
         },
         "easy-thumbnails": {
             "hashes": [
-                "sha256:e4e7a0dd4001f56bfd4058428f2c91eafe27d33ef3b8b33ac4e013b159b9ff91"
+                "sha256:9d7ed56a9b57aba7a8d0e03dc3b8507ca51aab5e0ed0bc705c3261ff1f659192",
+                "sha256:a7dd9cf97efaf70ba5d76484a962f08ba65b31f1681bc417257743650e9e8a8a"
             ],
-            "index": "pypi",
-            "version": "==2.7"
+            "version": "==2.7.2"
         },
         "pillow": {
             "hashes": [
